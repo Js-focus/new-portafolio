@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/about.css'
 
 const About = () => {
     return (
-        <div>
-            
+        <div className='about'>
+            <h1>About Juan Carlos Maya Perdomo</h1>
         </div>
     );
 };
