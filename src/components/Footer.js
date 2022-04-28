@@ -4,16 +4,16 @@ import '../styles/footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>Hecho por Juan Carlos Maya Perdomo  </p>
-            <div>
+            <p>Create by Juan Carlos Maya Perdomo  </p>
+            <div className='a-footer'>
                 <a href="https://twitter.com/juancho94ify" target={'blank'}>
-                    twitter
+                    <i className="fa-brands fa-twitter"></i>
                 </a>
                 <a href="https://github.com/Js-focus" target={'blank'}>
-                    git hub
+                    <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="https://github.com/Js-focus" target={'blank'}>
-                    linkedin
+                <a href="https://www.linkedin.com/in/js-focus/" target={'blank'}>
+                    <i className="fa-brands fa-linkedin-in"></i>
                 </a>
             </div>
             

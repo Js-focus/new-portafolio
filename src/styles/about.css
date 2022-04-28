@@ -1,4 +1,11 @@
 .about{
-    margin-top: 140px;
+    margin-top: 80px;
     padding: .5rem 1rem;
+    background: #0e0b16;
+    color: #e7dfdd;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: calc(100vh - 196px);
+    
+    
 }

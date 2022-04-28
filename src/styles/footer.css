@@ -1,12 +1,32 @@
 .footer{
     width: 100%;
-    height: 120px;
+    height: 100px;
     position: fixed;
     bottom: 0;
     left: 0;
-    background: goldenrod;
+    background: #0e0b16;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 10px 80vh 20px  #4484ce;
+    color: #b37d4e;
+}
+.footer p{
+    height: 30%;
+    margin: 0;
+}
+.a-footer{
+    width: 40%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.a-footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b37d4e;
+    font-size: 30px;
+    text-decoration: none;
 }
