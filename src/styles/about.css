@@ -1,11 +1,37 @@
+img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #fff;
+}
+strong{
+    font-size: 30px;
+}
+p{
+    padding: 1rem 1rem;
+}
 .about{
     margin-top: 80px;
-    padding: .5rem 1rem;
+    padding: .5rem 5rem;
     background: #0e0b16;
     color: #e7dfdd;
     overflow-y: scroll;
     scroll-behavior: smooth;
     height: calc(100vh - 196px);
-    
-    
+}
+.section-about{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-about-last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 680px) {
+    .section-about{
+        flex-direction: row;
+    }
 }
